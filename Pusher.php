@@ -1,6 +1,6 @@
 <?php
 
-namespace br0sk\pusher;
+namespace asepindra\pusher;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
