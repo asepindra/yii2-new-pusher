@@ -2,15 +2,16 @@
     "name": "asepindra/yii2-new-pusher",
     "description": "Yii2 wrapper for Pusher",
     "keywords": ["yii2", "realtime", "pusher.com"],
-    "homepage": "http://br0sk.blogspot.com",
+    "homepage": "http://asepindra.id",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/br0sk/yii2-pusher/issues",
-        "source": "https://github.com/br0sk/yii2-pusher"
+        "issues": "https://github.com/asepindra/yii2-new-pusher/issues",
+        "source": "https://github.com/asepindra/yii2-new-pusher"
     },
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "pusher/pusher-php-server": "^7"
     },
     "autoload": {
         "psr-4": {"asepindra\\pusher\\": ""}
