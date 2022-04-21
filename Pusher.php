@@ -49,7 +49,7 @@ class Pusher extends Component
          * Create a new Pusher object if it hasn't already been created.
          */
         if ($this->_pusher === null) {
-            $this->_pusher = new Pusher\Pusher($this->appKey, $this->appSecret, $this->appId, $this->options);
+            $this->_pusher = new \Pusher\Pusher($this->appKey, $this->appSecret, $this->appId, $this->options);
         }
     }
 
@@ -86,7 +86,7 @@ class Pusher extends Component
      * @param bool $debug [optional]
      * @return bool|string
      */
-    public function push($channels, $event, $data, $params, $already_encoded = false)
+    public function push($channels, $event, $data, $params = array(), $already_encoded = false)
     {
         $this->_pusher->trigger($channels, $event, $data, $params, $already_encoded);
     }
