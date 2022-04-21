@@ -1,0 +1,61 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@asepindra 
+asepindra
+/
+yii2-pusher
+Public
+forked from br0sk/yii2-pusher
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+yii2-pusher/composer.json
+@asepindra
+asepindra Update composer.json
+Latest commit cdbe686 8 minutes ago
+ History
+ 3 contributors
+@asepindra@rudissaar@br0sk
+18 lines (18 sloc)  509 Bytes
+   
+{
+    "name": "asepindra/yii2-new-pusher",
+    "description": "Yii2 wrapper for Pusher",
+    "keywords": ["yii2", "realtime", "pusher.com"],
+    "homepage": "http://br0sk.blogspot.com",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/br0sk/yii2-pusher/issues",
+        "source": "https://github.com/br0sk/yii2-pusher"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"br0sk\\pusher\\": ""}
+    }
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
