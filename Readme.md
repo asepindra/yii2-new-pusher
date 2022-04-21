@@ -6,7 +6,7 @@ This is an extension for Yii2 that makes it easy to use Pusher.
 You can configure it in your application `components` configuration like so:
 
     'pusher' => [
-        'class' => 'br0sk\pusher\Pusher',
+        'class' => 'asepindra\pusher\Pusher',
         /*
          * Mandatory parameters.
          */
